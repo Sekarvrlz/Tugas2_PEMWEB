@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- MASALAH: Jika karakter tidak tampil dengan benar, bisa jadi encoding tidak didukung oleh browser -->
+    <!-- SOLUSI: Pastikan meta charset diatur ke UTF-8 untuk mendukung karakter internasional -->
+    <meta charset="UTF-8">
+
+    <!-- MASALAH: Tampilan tidak responsif di perangkat mobile -->
+    <!-- SOLUSI: Pastikan meta viewport diatur dengan baik -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tugas 2 Pemweb</title>
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <!-- MASALAH: Jika gambar tidak muncul, bisa jadi nama file salah atau file tidak ada -->
+                <!-- SOLUSI: Pastikan file "logo.jpg" berada di direktori yang benar -->
+                <td><img src="logo.jpg" alt="logo" width="50"></td>
+                
+                <!-- MASALAH: Jika teks tidak terlihat jelas, bisa jadi ukuran font terlalu kecil -->
+                <!-- SOLUSI: Gunakan CSS untuk mengatur ukuran font yang lebih besar -->
+                <td><h1>Selamat Datang Di Website Itera</h1></td>
+            </tr>
+        </table>
+    </header>
+
+    <nav>
+        <!-- MASALAH: Link tidak berfungsi atau halaman tidak ditemukan -->
+        <!-- SOLUSI: Periksa kembali nama file yang dituju, pastikan file HTML sesuai -->
+        <a href="HalamanBerita.html">Informasi Lebih Lanjut</a>
+        <a href="HalamanBerita1.html">Tentang Program Studi</a>
+    </nav>
+
+    <main>
+        <h2>Program Studi yang ada di ITERA</h2>
+        
+        <!-- MASALAH: Jika paragraf terlihat terlalu berdekatan -->
+        <!-- SOLUSI: Gunakan CSS untuk menambah margin atau padding -->
+        <p>Ini adalah bagian utama dari halaman web.</p>
+        
+        <h2>Fakultas dan Program Studi</h2>
+        
+        <!-- MASALAH: Jika tabel tidak terlihat rapi atau terlalu berdekatan -->
+        <!-- SOLUSI: Gunakan CSS atau tambahkan atribut cellpadding dan cellspacing -->
+        <table >
+            <tr>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+            <tr>
+                <!-- MASALAH: Jika data dalam tabel tidak sejajar -->
+                <!-- SOLUSI: Gunakan CSS untuk mengatur lebar kolom agar lebih proporsional -->
+                <td>Fakultas Teknologi Produksi dan Industri</td>
+                <td>Teknik Informatika, Teknik Elektro, Teknik Mesin, Geofisika, Geologi, Mesin, Industri, Kimia, Fisika, Biosistem</td>
+            </tr>
+            <tr>
+                <td>Fakultas Teknologi Infrastruktur dan Kewilayahan</td>
+                <td>Pariwisata, Geomatika, PWK, Sipil, Arsitektur, Lingkungan, Kelautan, DKV, Perkeretaapian, Tata Kelola Air Terpadu</td>
+            </tr>
+            <tr>
+                <td>Fakultas Sains</td>
+                <td>Fisika, Matematika, Biologi, Kimia, Farmasi, Atmosfer dan Keplanetan, Sains Aktuaria, Sains Data, Sains Lingkungan dan Kelautan</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+       <!-- MASALAH: Jika footer menempel pada konten utama -->
+       <!-- SOLUSI: Gunakan margin-top atau padding untuk memberikan jarak -->
+       <p>&copy; 2025 Website Anda. Semua Hak Dilindungi.</p> 
+    </footer>
+</body>
+</html>
